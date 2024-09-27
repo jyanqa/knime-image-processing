@@ -1,0 +1,10 @@
+name: knime_image_processing # Will be concatenated with the group_id to an ID #condition: should be the same as the name of the folder containing the extension files config.yml
+author: jyanqa # Author of this Python node extension
+env_yml_path: image_processing_env.yml # This is necessary for bundling, but not needed during development # Relative path to the environment.yml file
+extension_module: src/kn_img_proc # Path to the module #The .py Python module containing the nodes of your extension
+description: Image Processing for Computer Vision # Human readable bundle name / description
+long_description: This extension provides nodes for image processing and computer vision tasks. # Human readable bundle description
+group_id: org.knime
+version: 0.1.0 # Version of this Python node extension
+vendor: KNIME AG, Zurich, Switzerland
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
